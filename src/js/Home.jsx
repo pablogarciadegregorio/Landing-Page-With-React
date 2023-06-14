@@ -10,10 +10,15 @@ const Home = () => {
 	return (
         <>
         <Navbar/>
-        <div class="p-4">
+        <div className="container flex justify-content-center p-5 ">
 		    
             <Jumbotron/>
-            <Card/>
+            <div className="row ">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
             
        
         </div>
